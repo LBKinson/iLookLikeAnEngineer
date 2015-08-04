@@ -122,6 +122,13 @@ body {
     padding:5px;
 }
 
+#footer {
+    a {
+        font-size: 1em;
+        color: #F0D5D5;
+    }
+}
+
 h2 {
   clear:both;
 }
@@ -221,6 +228,13 @@ ul li:hover {
   padding:5px;
   width:10%;
   font-family:arial;
+}
+
+#footer {
+    a {
+        font-size: 1em;
+        color: #F0D5D5;
+    }
 }
 
 
