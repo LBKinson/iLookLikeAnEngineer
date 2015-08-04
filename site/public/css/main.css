@@ -98,6 +98,7 @@ body {
     background: #291717;
     color: #F0D5D5;
     font-family: 'Lato', sans-serif;
+    margin: 1em;
 
 }
 
@@ -113,12 +114,18 @@ body {
     text-align: center;
     vertical-align: middle;
 }
+#instafeed {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #insta {
+    display: inline;
     list-style:none;
     overflow:hidden;
     border:1px solid #dedede;
-    margin:5px;
+    margin-left: auto;
+    margin-right: auto;
     padding:5px;
 }
 
@@ -228,6 +235,12 @@ ul li:hover {
   padding:5px;
   width:10%;
   font-family:arial;
+}
+
+#tweets {
+  ul {
+    display: inline;
+  }
 }
 
 #footer {
