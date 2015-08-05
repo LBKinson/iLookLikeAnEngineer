@@ -172,11 +172,12 @@
               imageUrl = imageUrl.replace('http://', '//');
             }
             img.src = imageUrl;
+            img.id = "insta-item"
             if (this.options.links === true) {
               anchor = document.createElement('a');
               anchor.href = image.link;
               anchor.target = '_blank'
-              anchor.id = 'insta'
+              anchor.id = 'insta-link'
               anchor.appendChild(img);
               fragment.appendChild(anchor);
             } else {

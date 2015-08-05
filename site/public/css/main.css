@@ -103,9 +103,11 @@ body {
 }
 
 #main-header {
-    height: 2em;
+  background-color: #291717;
+  background-image: url('https://pbs.twimg.com/profile_banners/2918134290/1438565013/1500x500');
+  background-size: 100%;
+  padding: 2em;
 }
-
 .header {
     color: #F0D5D5;
     font-size: 3em;
@@ -114,47 +116,68 @@ body {
     text-align: center;
     vertical-align: middle;
 }
-#instafeed {
-  margin-left: auto;
-  margin-right: auto;
+.nav {
+  margin: 0 auto;
+  width: 50%;
+}
+.nav ul {
+  display: inline-block;
+}
+.nav-list li {
+  list-style: none;
+  display: inline;
+  padding: 2em;
+}
+.nav-item a {
+  color: #fd63cf !important;
+  font-size: 1.2em;
+}
+.instagram {
+  margin: 0 auto;
 }
 
-#insta {
+#instafeed {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#insta-item {
+    border:1px solid #dedede;
     display: inline;
     list-style:none;
-    overflow:hidden;
-    border:1px solid #dedede;
     margin-left: auto;
     margin-right: auto;
-    padding:5px;
+    overflow:hidden;
+    padding: 10px;
 }
 
-#footer {
-    a {
-        font-size: 1em;
-        color: #F0D5D5;
-    }
+#insta-link {
+  width: 172px;
 }
 
-h2 {
+.instagram a:hover {
+  opacity: 50%;
+}
+
+.twitter h2 {
   clear:both;
 }
 
-p, a {
+.twitter p, a {
   font-size:9pt;
   margin:10px 0 0 0;
   color:#3d3d3d;
 }
 
-a, a:visited {
+.twitter a, a:visited {
   color:#427fed;
 }
 
-a:hover {
+.twitter a:hover {
   color:#82afff;
 }
 
-ul li {
+.twitter ul li {
 
   list-style:none;
   overflow:hidden;
@@ -163,69 +186,67 @@ ul li {
   padding:5px;
 }
 
-ul li:hover {
+.twitter ul li:hover {
   background-color: #522E2E;
 }
 
-.user, .tweet, .timePosted {
+.twitter .user, .tweet, .timePosted {
   float:left;
 }
 
-.user {
+.twitter .user {
   width:25%;
 }
 
-.tweet {
+.twitter .tweet {
   color: #FAF1F1;
   width:50%;
 }
 
-.timePosted {
+.twitter .timePosted {
+  color: #fd63cf;
   width:15%;
 }
 
-.user {
+.twitter .user {
   clear:left;
 }
 
-.user a {
+.twitter .user a {
  width: 100px;
 }
 
-.user span span {
+.twitter .user span span {
   width:100px;
   display:block;
   margin-top:10px;
 }
 
-.user img, .user a > span {
+.twitter .user img, .user a > span {
   float:left;
 }
 
-.interact {
+.twitter .interact {
   float:left;
   width:10%;
   margin-top:-7px;
 }
 
-.interact a {
+.twitter .interact a {
   margin-left:5px;
   float:left;
 }
-.interact-saturate {
-    -webkit-filter: saturate(3);
-}
 
-.user a > span {
+.twitter .user a > span {
   margin-left:10px;
 }
 
-.media img {
+.twitter .media img {
   max-width:250px;
   max-height:250px;
 }
 
-#linkage {
+.twitter #linkage {
   position:fixed;
   top:0px;
   right:0px;
@@ -237,17 +258,15 @@ ul li:hover {
   font-family:arial;
 }
 
-#tweets {
+.twitter #tweets {
   ul {
     display: inline;
   }
 }
 
-#footer {
-    a {
-        font-size: 1em;
-        color: #F0D5D5;
-    }
+.footer h4 {
+  font-size: 1em;
+  color: #F0D5D5;
 }
 
 
