@@ -103,9 +103,9 @@ body {
 }
 
 #main-header {
-  background-color: #291717;
+  /* background-color: #291717;
   background-image: url('https://pbs.twimg.com/profile_banners/2918134290/1438565013/1500x500');
-  background-size: 100%;
+  background-size: 100%; */
   padding: 2em;
 }
 .header {
